@@ -1,0 +1,108 @@
+/*!CK:2345734482!*//*1384787440,173203031*/
+
+.UIThumbPager .UIThumbPager_Hidden{display:none}
+.UIThumbPager .UIThumbPager_Loader{text-align:center;padding:32px 0}
+.UIThumbPager .UIThumbPager_Thumb{width:100%}
+.UIThumbPagerControl{position:relative}
+.UIThumbPagerControl_Button{background-image:url(/rsrc.php/v2/yi/r/8OjNXDy3pHp.gif);background-repeat:no-repeat;float:left;width:25px;height:22px}
+.UIThumbPagerControl_Button_Left{background-position:0 -83px}
+.UIThumbPagerControl_Button_Left:active{background-position:-100px -83px}
+.UIThumbPagerControl_First .UIThumbPagerControl_Button_Left,
+.UIThumbPagerControl_First .UIThumbPagerControl_Button_Left:active{cursor:default;background-position:-50px -83px}
+.UIThumbPagerControl_Button_Right{background-position:-25px -83px}
+.UIThumbPagerControl_Button_Right:active{background-position:-125px -83px}
+.UIThumbPagerControl_Last .UIThumbPagerControl_Button_Right,
+.UIThumbPagerControl_Last .UIThumbPagerControl_Button_Right:active{cursor:default;background-position:-75px -83px}
+.UIThumbPagerControl_Text{color:#999;line-height:22px;padding-left:57px;font-size:9px}
+.UIThumbPagerControl_PageNumber{color:#000;padding-right:9px}
+.UIShareStage_ShareContent{overflow:hidden}
+.UIShareStage_BottomMargin{margin:0 0 10px 0;padding:0}
+.UIShareStage_NoSpacing{margin:0}
+.UIShareStage_Hidden{display:none}
+.UIShareStage_LightText{color:#666}
+.UIShareStage .UIShareStage_FullWidthImage, .UIShareStage_FullWidthImage .UIShareStage_ThumbPager{max-height:208px;max-width:398px;overflow:hidden;width:100%}
+.UIShareStage_HasFullWidthImage .UIShareStage_ShareContent{display:inline}
+.UIShareStage_HasFullWidthImage .UIShareStage_Title{max-width:398px}
+.UIShareStage_HasFullWidthImage .UIShareStage_Summary{max-width:398px}
+.UIShareStage_Image, .UIShareStage_WideImage{float:left;padding:0 12px 12px 0}
+.UIShareStage_Image{max-width:100px}
+.UIShareStage_EventImage{width:50px}
+.UIShareStage_EventDesc{color:gray}
+.UIShareStage_ThumbPager{width:100px}
+.UIShareStage_WideImage{width:130px}
+.UIShareStage_ThumbPagerControl .UIThumbPagerControl_Text{padding:0}
+.UIShareStage_ThumbPagerControl .UIThumbPagerControl_PageNumber{margin-left:8px}
+.UIShareStage_Title{color:#000;font-size:12px;font-weight:bold;max-width:360px}
+.UIShareStage_Subtitle{font-size:11px;font-weight:normal;color:#666}
+.UIShareStage_Summary{margin-top:6px;padding:0;word-wrap:break-word}
+.UIShareStage_NoListStyle{list-style:none}
+.UIShareStage a.inline_edit{color:#000;display:inline;word-break:break-word}
+.UIShareStage a.inline_edit:hover{background-color:#ff9;text-decoration:none;width:auto}
+.UIShareStage textarea.inline_edit{width:90%}
+.UIShareStage_Attribution{margin-bottom:10px}
+div#error{margin:20px 20px 0 20px}
+._5po8 .img{top:5px}
+._59er .uiToken{margin:2px;padding:1px 3px 1px 5px}
+._52a6 ._59er{border:none}
+._52a6{border:1px solid #bdc7d8;width:100%}
+._59es{color:#a6a6a6;font-size:13px;padding-left:5px;white-space:nowrap;width:1px}
+._5scd{padding-left:5px}
+._9zg{min-width:200px}
+._9zg .uiInlineTokenizer .uiTypeahead{margin-top:2px}
+._90z img{height:16px;margin-right:4px;width:16px}
+._5d9h .uiSelectorBottomUp{margin-right:2px;margin-top:.15em}
+._b-z .UIShareStage_Title{word-wrap:break-word}
+._b-z .textInput{font-size:13px;padding:5px}
+._b--{border-bottom:1px solid #bdc7d8}
+._b-_, ._b-_ .wrap{border:0}
+._b_0{border-top:1px dashed #ccc}
+._c7f ._b_0{border:none;margin-top:0}
+._c7f .uiMentionsInput{display:none}
+._b-z .uiMentionsInput .highlighter{font-size:13px}
+._b_0 .UIShareStage_Image, .UIShareStage_WideImage{padding-bottom:0}
+html ._d2z{height:32px;padding-top:2px}
+html ._d2z, html ._d2z:hover{border-top:0;margin-top:0}
+._b-z ._d2w .textInput{font-size:11px;padding:3px 3px 4px}
+._d2-{padding:6px 10px}
+#booklet ._b-z .selector a:hover{text-decoration:none}
+._57xr{margin-left:0;margin-right:0}
+._57xr textarea, ._57xr .uiMentionsInput .highlighter{font-family:'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;font-size:14px;-webkit-font-smoothing:antialiased;margin:0 5px;padding:5px}
+._57xr .UIShareStage{border:1px solid;border-color:#e9e9e9 #e2e2e2 #d1d1d1;-webkit-box-shadow:0 1px 3px -1px rgba(0, 0, 0, .15);min-width:320px;position:relative}
+._57xr .UIShareStage:hover{border-color:#e2e2e2 #dadada #ccc;-webkit-box-shadow:0 1px 6px -1px #ccc}
+._57xr .UIShareStage_Image{max-width:154px;padding:0}
+._57xr .UIShareStage_Attribution{display:none}
+._57xr .UIShareStage_Summary{font-family:Georgia, 'lucida grande',tahoma,verdana,arial,sans-serif;line-height:16px;margin-top:0;max-height:100px;overflow:hidden}
+._57xr .UIShareStage_Summary.UIShareStage_NoSubtitle{max-height:100px}
+._57xr .UIShareStage_NoImage .UIShareStage_Summary{margin-bottom:24px}
+._57xr .UIShareStage_Image img.UIThumbPager_Hidden{display:none}
+._57xr .UIShareStage_ShareContent{float:left;font-size:12px;height:134px;left:154px;margin:10px 12px 0;overflow:hidden;position:absolute;width:auto}
+._57xr .UIShareStage_NoImage .UIShareStage_ShareContent{height:auto;left:0;margin-bottom:13px;position:relative}
+._57xr .UIShareStage_Title{font-family:Georgia, 'lucida grande',tahoma,verdana,arial,sans-serif;font-size:18px;font-weight:500;line-height:22px;margin-bottom:4px;max-height:44px;overflow:hidden;word-wrap:break-word}
+._57xr .UIShareStage_NoImage .UIShareStage_Title{max-width:470px}
+._57xr .UIShareStage_Subtitle{bottom:0;color:#adb2bb;font-size:11px;position:absolute;text-transform:uppercase}
+._57xr .UIShareStage_ThumbPager{height:154px;width:154px}
+._57xr .UIShareStage_ThumbPagerControl{display:none}
+._57xr .UIThumbPager_Loader{padding:69px 0}
+._57xr .UIThumbPagerControl_NoPicture, ._57xr .UIThumbPagerControl_Text{display:none}
+._5dpn{min-height:57px}
+._5dpn, ._5dpn .wrap, ._5dpn.uiTypeahead, ._5dpn.uiTypeahead .wrap, ._5po9 .wrap, ._5po9 ._57xs{border:none !important}
+._5o6t{font-family:'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;font-size:12px;margin:6px 10px}
+._5poa, ._5po9, ._5po9.uiTypeahead, ._5po9 ._59er, ._5po9 ._59er input{background-color:#fafafa}
+._5po9{border-bottom:1px solid #d9d9d9;border-top:none;line-height:14px;margin:0;min-height:20px;padding:10px}
+._5po9._5po8 .img{top:2px}
+._57xr ._59er .uiToken{margin:0 1px 0 0}
+._5po9 .inputtext{padding:2px 0}
+._5po9 .wrap{position:relative}
+._5po9 input, ._5po9 ._59es, ._57xr ._59er .uiToken{font-family:'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;font-size:14px}
+._5po9 ._59es{padding-right:3px}
+._5rtt._5poa{border-bottom:1px solid #d9d9d9;padding:10px}
+._5rtt ._5po9, ._5rtt ._5po9.uiTypeahead{border:none;padding:0}
+._5rtt ._5po8, ._5rtt ._57xs{margin-top:2px}
+._5rtt ._57xt{margin-top:-1px}
+._90-{display:inline-block;height:16px;margin-right:3px;position:relative;top:3px}
+._57xp .headerTinymanPhoto{border:1px solid;-webkit-border-image:url(/rsrc.php/v2/yY/r/FzKD62dWiWW.png);-webkit-border-radius:4px;height:24px;margin:10px 0;width:24px}
+.sharerTitleContainer{font-size:13px}
+.sharerButtonContainer{padding-right:5px}
+
+#bootloader_xN1WB { height: 42px; }
+.bootloader_xN1WB { display:block !important; }

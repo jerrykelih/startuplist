@@ -1,0 +1,277 @@
+.dropdown-arrow-inverse {
+  border-bottom-color: #011413 !important;
+  border-top-color: #011413 !important;
+}
+.container {
+  width: 100%;
+  padding: 0px;
+  background-color: #fffcf5;
+}
+header {
+  background-color: #174b5c;
+  padding: 4em 0 3em 0;
+}
+header img {
+  width: 100px;
+}
+header h1 {
+  color: #f5e9be;
+  font-size: 110px;
+  font-weight: 600;
+}
+header h3 {
+  color: #f5e9be;
+  font-weight: 100;
+  font-size: 50px;
+  margin-top: 50px;
+}
+@media (max-width: 992px) {
+  header {
+    font-size: 2.5em;
+    padding: 2em 0 0 0;
+  }
+}
+header .add {
+  margin-top: 2em;
+}
+@media (max-width: 992px) {
+  header .add {
+    top: 0px;
+    width: 100%;
+    left: -5%;
+    position: relative;
+  }
+}
+header .add button {
+  margin-left: 0px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-weight: 100;
+  z-index: 9999;
+  color: #f5e9be;
+}
+header .add button .icon-pencil {
+  font-size: 0.9em;
+  padding-right: 5px;
+}
+@media (max-width: 992px) {
+  header .add button {
+    width: 110%;
+    font-size: 0.7em;
+    border-radius: 3px;
+  }
+}
+header .add .btn-primary:hover,
+header .add .btn-primary:focus,
+header .add .btn-primary:active,
+header .add .btn-primary.active,
+header .add .open .dropdown-toggle.btn-primary {
+  color: #f6ebc5;
+}
+header .add .modal-header {
+  border-bottom: 1px solid #fffcf5;
+}
+header .add .modal-header .close {
+  margin: 0;
+  font-size: 31px;
+}
+@media (max-width: 992px) {
+  header .add .modal-header .close {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-size: 51px;
+    right: -48%;
+    position: absolute;
+  }
+}
+h4 {
+  font-weight: 200;
+  line-height: 1.4em;
+  margin-top: 10px;
+}
+@media (max-width: 992px) {
+  h4 {
+    font-size: 2.5em;
+  }
+}
+p {
+  font-weight: 300;
+}
+@media (max-width: 992px) {
+  p {
+    font-size: 1.4em;
+    color: #011413;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+li:nth-child(2n+1) {
+  background-color: #f7f4ed;
+}
+.search {
+  width: 50%;
+  margin: 60px auto;
+}
+.search .form-group {
+  margin-bottom: 0px;
+}
+.search .form-control {
+  font-weight: 200;
+}
+.search .filter-icon {
+  color: #BDC3C7;
+}
+.search ::-webkit-input-placeholder {
+  color: #BDC3C7;
+}
+.search :-moz-placeholder {
+  /* Firefox 18- */
+  color: #BDC3C7;
+}
+.search ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BDC3C7;
+}
+.search :-ms-input-placeholder {
+  color: #BDC3C7;
+}
+.search .form-control + .input-icon {
+  color: #BDC3C7;
+}
+@media (max-width: 992px) {
+  .search {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .search .col-lg-6 {
+    width: 100%;
+  }
+}
+.startup {
+  margin-left: -40px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .startup {
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}
+.logo {
+  background-color: #ffffff;
+  width: 200px;
+  height: 100px;
+  margin: 18px;
+  border-radius: 3px;
+}
+@media (max-width: 992px) {
+  .logo {
+    margin: 60px auto;
+  }
+}
+.logo img {
+  max-width: 150px;
+  max-height: 90px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.people {
+  padding-top: 20px;
+}
+.people .person {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+@media (max-width: 992px) {
+  .people .person {
+    font-size: 1em;
+  }
+}
+.contact {
+  padding: 0% 7%;
+}
+@media (max-width: 992px) {
+  .contact {
+    padding: 5% 0%;
+  }
+}
+@media (max-width: 418px) {
+  .contact {
+    padding: 5% 18%;
+  }
+}
+.contact i {
+  padding-top: 20px;
+  display: block;
+  font-size: 1.2em;
+}
+@media (max-width: 992px) {
+  .contact i {
+    padding: 25px 50px;
+    width: 160px;
+    display: inline;
+    font-size: 2em;
+  }
+}
+@media (max-width: 418px) {
+  .contact i {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.contact .icon-facebook {
+  padding-left: 7px;
+}
+@media (max-width: 992px) {
+  .contact .icon-facebook {
+    padding-left: 0px;
+    padding: 25px 50px;
+    width: 130px;
+  }
+}
+.contact .icon-mail {
+  font-size: 1.0em;
+}
+@media (max-width: 992px) {
+  .contact .icon-mail {
+    font-size: 1.7em;
+  }
+}
+.coworking p {
+  text-indent: -9999px;
+}
+.coworking img {
+  margin-top: -18px;
+}
+.coworking.no-logo {
+  text-indent: 0px;
+}
+.bottom-menu-inverse {
+  background-color: #174b5c;
+  color: #f5e9be;
+  padding: 50px;
+  font-weight: 200;
+}
+.bottom-menu-inverse a {
+  color: #ffe184;
+}
+.bottom-menu-inverse a:hover,
+.bottom-menu-inverse a:focus {
+  color: #fffcf5;
+}
+@media (max-width: 992px) {
+  .bottom-menu-inverse p {
+    color: #f5e9be;
+    font-weight: 100;
+  }
+}

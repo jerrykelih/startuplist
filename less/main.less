@@ -1,0 +1,328 @@
+// Startup List Norway
+
+
+// Loading config with variables (changing them leads to changing a color scheme)
+@import "variables";
+
+// Utility mixins for greater good
+@import "mixins";
+
+
+// Custom Syles
+
+
+// Content
+// -------------------------
+
+
+.container {
+	width: 100%;
+	padding: 0px;
+	background-color: @icecream;
+}
+
+
+header {
+	background-color: @deepsea;
+	padding: 4em 0 3em 0;
+
+		img {
+			width: 100px;
+			}
+
+		h1 {
+			color: @vanilla;
+			font-size: 110px;
+			font-weight: 600;	
+		}
+
+		h3 {
+			color: @vanilla;
+			font-weight: 100;
+			font-size: 50px;
+			margin-top: 50px;
+		}
+				@media (max-width: 992px) {
+			    font-size: 2.5em;
+			    padding: 2em 0 0 0;
+			  	}
+
+
+
+
+		.add {
+				margin-top: 2em;
+				@media (max-width: 992px) {
+					top: 0px;
+					width: 100%;
+					left: -5%;
+					position: relative;
+
+			  }
+
+			button {
+
+				margin-left: 0px;
+				margin-top: 20px;
+				font-size: 1.1em;
+				font-weight: 100;
+				z-index: 9999;
+				color: @vanilla;
+
+				.icon-pencil {
+					font-size: 0.9em;
+					padding-right: 5px;
+				}
+
+				@media (max-width: 992px) {
+				   	width: 110%;
+					font-size: 0.7em;
+				    border-radius: @border-radius-small;
+				 }
+
+			}
+
+			.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+					color: mix(@vanilla, white, 90%);
+				}
+
+			.modal-header {
+				border-bottom: 1px solid @icecream;
+			}
+
+
+			.modal-header .close {
+				margin: 0;
+				font-size: 31px;
+						@media (max-width: 992px) {
+						margin: 0 auto;
+						padding-bottom: 40px;
+						font-size: 51px;
+						right: -48%;
+						position: absolute;
+				  		}
+
+				}
+		}
+}
+
+
+
+
+h4 {
+	font-weight: 200;
+	line-height: 1.4em;
+	margin-top: 10px;
+				@media (max-width: 992px) {
+			    font-size: 2.5em;
+			  	}
+}
+
+p {
+	font-weight: 300;
+				@media (max-width: 992px) {
+			    font-size: 1.4em;
+			    color: @moonlight
+			  }
+}
+
+
+ul {
+	list-style-type: none;
+	margin:0;
+}
+
+li:nth-child(2n+1) {
+		background-color: @pudding;
+}
+
+
+.search {
+width: 50%;
+margin: 60px auto;
+
+			.form-group {
+				margin-bottom: 0px;
+			}
+			.form-control {
+				font-weight: 200;
+			}
+			.filter-icon {
+				color: #BDC3C7;
+			}
+			::-webkit-input-placeholder {
+			   color: #BDC3C7;
+			}
+
+			:-moz-placeholder { /* Firefox 18- */
+			   color: #BDC3C7;  
+			}
+
+			::-moz-placeholder {  /* Firefox 19+ */
+			   color: #BDC3C7;  
+			}
+
+			:-ms-input-placeholder {  
+			   color: #BDC3C7;  
+			}
+
+			.form-control + .input-icon {
+				color: #BDC3C7;
+			}
+
+			@media (max-width: 992px) {
+			    width: 80%;
+			}
+
+			.col-lg-6 {
+
+				@media (min-width: 1200px) {
+			    width: 100%;
+			 }
+			}
+			
+}
+
+
+.startup {
+	margin-left: -40px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+		@media (max-width: 992px) {
+			    text-align: center;
+			    padding-bottom: 60px;
+		}
+}
+
+
+
+.logo 	{
+	background-color: rgb(255, 255, 255);
+	width: 200px;
+	height: 100px;
+	margin: 18px;
+	border-radius: @border-radius-small;
+
+			@media (max-width: 992px) {
+			   margin: 60px auto;
+			}
+
+		img {
+		max-width: 150px;
+		max-height: 90px;
+	  	overflow: auto;
+	  	margin: auto;
+	  	position: absolute;
+	  	top: 0; left: 0; bottom: 0; right: 0;
+		}
+
+}
+
+
+.people {
+	padding-top: 20px;
+
+	.person {
+	font-size: 0.8em;
+	font-weight: 400;
+
+				@media (max-width: 992px) {
+			    font-size: 1em;
+			  	}
+	}
+}
+
+
+
+.contact {
+
+	padding: 0% 7%;
+
+	@media (max-width: 992px) {
+    padding: 5% 0%;
+  	}
+	@media (max-width: 418px) {
+    padding: 5% 18%;
+  	}
+		i {
+		padding-top: 20px;
+		display: block;
+		font-size: 1.2em;
+				@media (max-width: 992px) {
+			    padding: 25px 50px;
+				width: 160px;
+				display: inline;
+				font-size: 2em;
+			  	}
+			  	@media (max-width: 418px) {
+			    display: block;
+			    margin: 0 auto;
+			  	}
+
+		}
+
+		.icon-facebook {
+			padding-left: 7px;
+				@media (max-width: 992px) {
+			    padding-left: 0px;
+			    padding: 25px 50px;
+			    width: 130px;
+			  	}
+		  				  	
+		}
+
+		.icon-mail {
+			font-size: 1.0em;
+				@media (max-width: 992px) {
+				font-size: 1.7em;
+			  	}
+		}
+
+}
+
+
+.coworking {
+
+	p {
+		text-indent: -9999px;
+	}
+
+	img {
+	margin-top: -18px;
+	}
+
+}
+
+.coworking.no-logo {
+	text-indent: 0px;
+}
+
+.bottom-menu-inverse {
+	background-color: @deepsea;
+	color: @vanilla;
+	padding: 50px;
+	font-weight: 200;
+			a {
+				color: @sunshine;
+			}
+			a:hover, a:focus {
+				color: @icecream;
+			}
+
+	@media (max-width: 992px){
+			p {
+			color: @vanilla;
+			font-weight: 100;
+			}
+	}
+
+}
+
+
+
+
+
+
+
