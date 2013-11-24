@@ -16,18 +16,23 @@ header img {
 }
 header h1 {
   color: #f5e9be;
-  font-size: 110px;
+  font-size: 6em;
   font-weight: 600;
+}
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 5em;
+  }
 }
 header h3 {
   color: #f5e9be;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 2.5em;
   margin-top: 50px;
 }
 @media (max-width: 992px) {
   header {
-    font-size: 2.5em;
+    font-size: 1.5em;
     padding: 2em 0 0 0;
   }
 }
@@ -36,10 +41,8 @@ header .add {
 }
 @media (max-width: 992px) {
   header .add {
-    top: 0px;
-    width: 100%;
-    left: -5%;
-    position: relative;
+    margin-top: 1.2em;
+    padding-bottom: 40px;
   }
 }
 header .add button {
@@ -56,9 +59,7 @@ header .add button .icon-pencil {
 }
 @media (max-width: 992px) {
   header .add button {
-    width: 110%;
-    font-size: 0.7em;
-    border-radius: 3px;
+    font-size: 1.3em;
   }
 }
 header .add .btn-primary:hover,
@@ -207,7 +208,8 @@ li:nth-child(2n+1) {
 }
 @media (max-width: 418px) {
   .contact {
-    padding: 5% 18%;
+    padding: 5% 0%;
+    min-width: 220px;
   }
 }
 .contact i {
@@ -225,8 +227,7 @@ li:nth-child(2n+1) {
 }
 @media (max-width: 418px) {
   .contact i {
-    display: block;
-    margin: 0 auto;
+    padding: 0px 0px;
   }
 }
 .contact .icon-facebook {

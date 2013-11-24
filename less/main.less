@@ -32,18 +32,21 @@ header {
 
 		h1 {
 			color: @vanilla;
-			font-size: 110px;
-			font-weight: 600;	
+			font-size: 6em;
+			font-weight: 600;
+				@media (max-width: 992px) {
+			    font-size: 5em;
+			  	}	
 		}
 
 		h3 {
 			color: @vanilla;
 			font-weight: 100;
-			font-size: 50px;
+			font-size: 2.5em;
 			margin-top: 50px;
 		}
 				@media (max-width: 992px) {
-			    font-size: 2.5em;
+			    font-size: 1.5em;
 			    padding: 2em 0 0 0;
 			  	}
 
@@ -53,11 +56,8 @@ header {
 		.add {
 				margin-top: 2em;
 				@media (max-width: 992px) {
-					top: 0px;
-					width: 100%;
-					left: -5%;
-					position: relative;
-
+				margin-top: 1.2em;
+				padding-bottom: 40px;
 			  }
 
 			button {
@@ -74,10 +74,8 @@ header {
 					padding-right: 5px;
 				}
 
-				@media (max-width: 992px) {
-				   	width: 110%;
-					font-size: 0.7em;
-				    border-radius: @border-radius-small;
+				@media (max-width: 992px) {				   	
+					font-size: 1.3em;				
 				 }
 
 			}
@@ -244,7 +242,8 @@ margin: 60px auto;
     padding: 5% 0%;
   	}
 	@media (max-width: 418px) {
-    padding: 5% 18%;
+    padding: 5% 0%;
+	min-width: 220px;
   	}
 		i {
 		padding-top: 20px;
@@ -257,8 +256,7 @@ margin: 60px auto;
 				font-size: 2em;
 			  	}
 			  	@media (max-width: 418px) {
-			    display: block;
-			    margin: 0 auto;
+			    padding: 0px 0px;
 			  	}
 
 		}
