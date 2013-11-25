@@ -67,18 +67,12 @@ header .add .open .dropdown-toggle.btn-primary {
 header .add .modal-header {
   border-bottom: 1px solid #fffcf5;
 }
+header .add .modal-body {
+  height: 1190px;
+}
 header .add .modal-header .close {
   margin: 0;
-  font-size: 31px;
-}
-@media (max-width: 992px) {
-  header .add .modal-header .close {
-    margin: 0 auto;
-    padding-bottom: 40px;
-    font-size: 51px;
-    right: -48%;
-    position: absolute;
-  }
+  font-size: 3em;
 }
 h4 {
   font-weight: 200;
