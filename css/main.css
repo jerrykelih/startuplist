@@ -66,13 +66,16 @@ header .add .open .dropdown-toggle.btn-primary {
 }
 header .add .modal-header {
   border-bottom: 1px solid #fffcf5;
+  height: 40px;
 }
 header .add .modal-body {
+  padding: 20px 24px 20px;
   height: 1190px;
 }
 header .add .modal-header .close {
   margin: 0;
-  font-size: 3em;
+  font-weight: bold;
+  font-size: 2em;
 }
 h4 {
   font-weight: 200;
