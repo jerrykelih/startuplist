@@ -285,3 +285,6 @@ li:nth-child(2n+1) {
     font-weight: 100;
   }
 }
+div#at4-share {
+  padding-right: 0px;
+}
