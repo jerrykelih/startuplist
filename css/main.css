@@ -8,6 +8,11 @@
   padding-right: 0px;
   background-color: #fffcf5;
 }
+@media (max-width: 420px) {
+  .container {
+    font-size: 0.8em;
+  }
+}
 header {
   background-color: #174b5c;
   padding: 4em 0 3em 0;
@@ -186,8 +191,9 @@ li:nth-child(2n+1) {
   padding-top: 20px;
 }
 .people .person {
-  font-size: 0.8em;
-  font-weight: 400;
+  font-size: 0.9em;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 @media (max-width: 992px) {
   .people .person {
