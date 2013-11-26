@@ -191,6 +191,11 @@ li:nth-child(2n+1) {
 .people {
   padding-top: 20px;
 }
+@media (max-width: 992px) {
+  .people {
+    padding-top: 40px;
+  }
+}
 .people .person {
   font-size: 0.9em;
   font-weight: 200;
@@ -207,6 +212,7 @@ li:nth-child(2n+1) {
 @media (max-width: 992px) {
   .contact {
     padding: 5% 0%;
+    padding-top: 60px;
   }
 }
 @media (max-width: 418px) {
