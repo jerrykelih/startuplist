@@ -288,3 +288,8 @@ li:nth-child(2n+1) {
 div#at4-share {
   padding-right: 0px;
 }
+@media (min-width: 1500px) and (min-width: 1200px) {
+  .col-md-3 {
+    margin-left: 8.333333333333332%;
+  }
+}
