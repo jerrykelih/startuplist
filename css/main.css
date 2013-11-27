@@ -274,6 +274,7 @@ li:nth-child(2n+1) {
 }
 .bottom-menu-inverse a {
   color: #ffe184;
+  cursor: pointer;
 }
 .bottom-menu-inverse a:hover,
 .bottom-menu-inverse a:focus {
@@ -285,8 +286,24 @@ li:nth-child(2n+1) {
     font-weight: 100;
   }
 }
+.bottom-menu-inverse .about h2,
+.bottom-menu-inverse .about h4,
+.bottom-menu-inverse .about p {
+  color: #174b5c;
+}
+.bottom-menu-inverse .about .modal-header {
+  height: 70px;
+}
+.bottom-menu-inverse .about .modal-header .modal-title {
+  float: left;
+}
+.bottom-menu-inverse .about .modal-header .close {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2em;
+}
 div#at4-share {
-  padding-right: 0px;
+  padding-right: 0px !important;
 }
 .fb-like {
   padding-top: 20px;

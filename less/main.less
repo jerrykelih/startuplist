@@ -314,8 +314,10 @@ margin: 60px auto;
 	color: @vanilla;
 	padding: 50px;
 	font-weight: 200;
+
 			a {
 				color: @sunshine;
+				cursor: pointer;
 			}
 			a:hover, a:focus {
 				color: @icecream;
@@ -328,13 +330,35 @@ margin: 60px auto;
 			}
 	}
 
+
+	.about {
+		h2, h4, p {
+			color: @deepsea;
+		}
+
+		.modal-header {
+				height: 70px;
+				.modal-title {
+					float: left;
+				}
+		}
+
+		.modal-header .close {
+				margin: 0;
+				font-weight: bold;
+				font-size: 2em;
+				}
+	}
+
 }
+
+
 
 
 // SOCIAL
 
 div#at4-share {
-padding-right: 0px;
+padding-right: 0px !important;
 }
 
 .fb-like {
