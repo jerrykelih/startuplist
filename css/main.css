@@ -294,13 +294,17 @@ li:nth-child(2n+1) {
 .bottom-menu-inverse .about .modal-header {
   height: 70px;
 }
-.bottom-menu-inverse .about .modal-header .modal-title {
-  float: left;
-}
 .bottom-menu-inverse .about .modal-header .close {
   margin: 0;
   font-weight: bold;
   font-size: 2em;
+}
+.bottom-menu-inverse .about .modal-header .modal-title {
+  float: left;
+}
+.bottom-menu-inverse .about .modal-body p {
+  text-align: left;
+  margin-bottom: 60px;
 }
 div#at4-share {
   padding-right: 0px !important;
