@@ -54,11 +54,12 @@ header {
 
 
 
-		.add {
+		.buttons {
 				margin-top: 2em;
+				margin-left: 27px;
 				@media (max-width: 992px) {
 				margin-top: 1.2em;
-				padding-bottom: 40px;
+				padding-bottom: 60px;
 			  }
 
 			button {
@@ -70,7 +71,7 @@ header {
 				z-index: 9999;
 				color: @vanilla;
 
-				.icon-pencil {
+				i {
 					font-size: 0.9em;
 					padding-right: 5px;
 				}
@@ -85,29 +86,38 @@ header {
 					color: mix(@vanilla, white, 90%);
 				}
 
-			.modal-header {
-				border-bottom: 1px solid @icecream;
-				height: 40px;
-			}
 
-			.modal-body {
-				padding: 20px 24px 20px;
-				height: 1190px;
-
-			}
-
-			.modal-header .close {
-				margin: 0;
-				font-weight: bold;
-				font-size: 2em;
-				}
 		}
-}
 
-		.about {
-			cursor: pointer;
-			margin-top: 50px;
-			font-size: 2em;
+
+			.add {
+
+				float: right;
+
+				.modal-header {
+					border-bottom: 1px solid @icecream;
+					height: 40px;
+				}
+
+				.modal-body {
+					padding: 20px 24px 20px;
+					height: 1190px;
+
+				}
+
+				.modal-header .close {
+					margin: 0;
+					font-weight: bold;
+					font-size: 2em;
+					}
+			}
+			
+
+			.about {
+				button {
+					float: left;
+				}
+				
 
 				.modal-header {
 						height: 70px;
@@ -116,10 +126,7 @@ header {
 						margin: 0;
 						font-weight: bold;
 						font-size: 2em;
-						}
-
-						.modal-title {
-							float: left;
+						float: right;
 						}
 				}
 
@@ -131,6 +138,10 @@ header {
 				}
 
 		}
+
+}
+
+
 
 
 h4 {

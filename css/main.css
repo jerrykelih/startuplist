@@ -36,16 +36,17 @@ header h3 {
     padding: 2em 0 0 0;
   }
 }
-header .add {
+header .buttons {
   margin-top: 2em;
+  margin-left: 27px;
 }
 @media (max-width: 992px) {
-  header .add {
+  header .buttons {
     margin-top: 1.2em;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
 }
-header .add button {
+header .buttons button {
   margin-left: 0px;
   margin-top: 20px;
   font-size: 1.1em;
@@ -53,21 +54,24 @@ header .add button {
   z-index: 9999;
   color: #f5e9be;
 }
-header .add button .icon-pencil {
+header .buttons button i {
   font-size: 0.9em;
   padding-right: 5px;
 }
 @media (max-width: 992px) {
-  header .add button {
+  header .buttons button {
     font-size: 1.3em;
   }
 }
-header .add .btn-primary:hover,
-header .add .btn-primary:focus,
-header .add .btn-primary:active,
-header .add .btn-primary.active,
-header .add .open .dropdown-toggle.btn-primary {
+header .buttons .btn-primary:hover,
+header .buttons .btn-primary:focus,
+header .buttons .btn-primary:active,
+header .buttons .btn-primary.active,
+header .buttons .open .dropdown-toggle.btn-primary {
   color: #f6ebc5;
+}
+header .add {
+  float: right;
 }
 header .add .modal-header {
   border-bottom: 1px solid #fffcf5;
@@ -82,23 +86,19 @@ header .add .modal-header .close {
   font-weight: bold;
   font-size: 2em;
 }
-.about {
-  cursor: pointer;
-  margin-top: 50px;
-  font-size: 2em;
+header .about button {
+  float: left;
 }
-.about .modal-header {
+header .about .modal-header {
   height: 70px;
 }
-.about .modal-header .close {
+header .about .modal-header .close {
   margin: 0;
   font-weight: bold;
   font-size: 2em;
+  float: right;
 }
-.about .modal-header .modal-title {
-  float: left;
-}
-.about .modal-body p {
+header .about .modal-body p {
   text-align: left;
   margin-bottom: 60px;
 }
